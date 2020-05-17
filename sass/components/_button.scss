@@ -8,10 +8,10 @@
         display: inline-block;
         border-radius: 10rem; 
         transition: all 0.2s;
-        position: relative;
+        position: relative; //so we can use ::After and ::before psuedo class
         font-size: $default-font-size;
 
-        //change for the <button> elemenr
+        //change for the <button> element
         border: none;
         cursor: pointer;
     }
