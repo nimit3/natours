@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "node-sass": "^4.14.1"
   },
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "autoprefixer": "^9.8.0",
+    "gh-pages": "^2.2.0",
+    "postcss-cli": "^7.1.1"
   }
 }
