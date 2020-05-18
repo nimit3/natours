@@ -638,8 +638,7 @@ body {
   .popup__left {
     width: 33.333333333%;
     display: table-cell;
-    /*1200px*/
-    /*600px*/ }
+    /*1200px*/ }
     @media (max-width: 75em) {
       .popup__left {
         width: 100%;
@@ -658,7 +657,8 @@ body {
   .popup__img {
     display: block;
     width: 100%;
-    /*1200px*/ }
+    /*1200px*/
+    /*600px*/ }
     @media (max-width: 75em) {
       .popup__img {
         display: inline-block;
@@ -669,6 +669,16 @@ body {
         .popup__img--2 {
           float: right;
           height: 35vh; } }
+    @media (max-width: 37.5em) {
+      .popup__img {
+        display: inline-block;
+        width: 50%; }
+        .popup__img--1 {
+          float: left;
+          height: 25vh; }
+        .popup__img--2 {
+          float: right;
+          height: 25vh; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 3rem;

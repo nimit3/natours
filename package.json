@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "deploy": "gh-pages -d ../natours"
+    "watch:sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
+    "compile:sass": "node-sass dist/sass/main.scss dist/css/style.comp.css",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
