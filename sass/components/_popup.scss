@@ -31,10 +31,6 @@
             display: inline-block;
         }
 
-        @include respond(phone){
-            
-        }
-
     }
 
     &__right{
@@ -67,6 +63,20 @@
             &--2{
                 float: right;
                 height: 35vh;
+            }
+        }
+
+        @include respond(phone){
+            display: inline-block;
+            width: 50%;
+            &--1{
+                float: left;
+                height: 25vh;
+            }
+
+            &--2{
+                float: right;
+                height: 25vh;
             }
         }
     }
